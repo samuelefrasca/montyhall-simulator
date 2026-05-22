@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #1a1a2e;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1b5e20;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 80px;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.blocconumero {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.inseriscinumero {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#valoreinizio {
+    margin-top: 20px;
+}
+
+.barrainizio {
+    margin: 20px;
+    accent-color: #1b5e20;
+}
+
+button {
+    margin-top: 5px;
+    line-height: normal;
+    height: 40px;
+    display: inline-block;
+    padding: 0px 20px;
+    border: 1px solid #1b5e20;
+    border-radius: 50px;
+    font-size: 10pt;
+    background-color: #1b5e20;
+    color: white;
+    transition: all 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#subtitle {
+    text-align: center;
+}
+
+#mhgrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0px;
+}
+
+.porta {
+    display: flex;
+    flex-direction: column;
+}
+
+.portaimg {
+    height: 200px;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #1b5e20;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+}
+
+.a_footer {
+    color: white;
+    text-decoration: none;
+}
+
+.a_footer:hover {
+    text-decoration: underline;
+}
+
+.github {
+    justify-content: center;
+}
+
+.github-logo {
+    height: 17px;
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+    
+    .portaimg {
+        height: 100px;
+    }
+}

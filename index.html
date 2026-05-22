@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Monty Hall Simulator</title>
+    <meta name="description" content="Simulazione del problema di Monty Hall.">
+
+    <meta property="og:site_name" content="Monty Hall Simulator">
+    <meta property="og:title" content="Monty Hall Simulator">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://samuelefrasca.github.io/MontyHall-Simulator/">
+    <meta property="og:image" content="https://samuelefrasca.github.io/MontyHall-Simulator/assets/img/mh_icon.png">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/img/mh_icon.png">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Monty Hall Simulator",
+            "url": "https://samuelefrasca.github.io/MontyHall-Simulator/",
+            "description": "Simulazione del problema di Monty Hall."
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container header">
+            <img class="logo" src="assets/img/mh_image.png" alt="mh_image.png">
+            <h1 class="title">Problema di Monty Hall</h1>
+            <img class="logo" src="assets/img/mh_image.png" alt="mh_image.png">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div id="start">
+                <h2 class="subtitle">Con quante porte vuoi giocare?</h2>
+                <h3 class="subtitle">Scegli un numero tra 3 e 15</h3>
+                <div class="blocconumero">
+                    <span id="valoreinizio">3</span>
+                    <input class="barrainizio" type="range" min="3" max="15" value="3" id="myRange">
+                    <button class="bottoneinizio" id="bottoneinizio">INIZIA</button>
+                </div>
+            </div>
+            <div id="subtitle"></div>
+            <div id="mhgrid"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 - <a class="a_footer" href="https://samuelefrasca.github.io/" target="_blank">Samuele Frasca</a>
+        </p>
+        <p><a class="a_footer github" href="https://github.com/samuelefrasca" target="_blank"><img class="github-logo"
+                    src="assets/img/GitHub_Invertocat_White.png" alt="github-logo">GitHub</a> &middot; <a
+                class="a_footer" href="https://github.com/samuelefrasca/MontyHall-Simulator/blob/main/montyhall.py"
+                target="_blank">Codice Python</a></p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
