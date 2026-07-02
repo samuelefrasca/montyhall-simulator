@@ -2,7 +2,7 @@
 
 Una simulazione interattiva del classico problema di Monty Hall, realizzata come sito web.
 
-🔗 [Vai al sito live](https://samuelefrasca.github.io/MontyHall-Simulator)
+🔗 [Vai al sito live](https://montyhall.pages.dev/)
 
 ## Cos'è il problema di Monty Hall?
 
