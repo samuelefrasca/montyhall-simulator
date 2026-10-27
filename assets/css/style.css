@@ -107,9 +107,8 @@ button:hover {
 }
 
 footer {
-    margin-top: auto;
     background-color: #1b5e20;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px 20px 0px 0px;
     text-align: center;
 }
@@ -125,11 +124,6 @@ footer {
 
 .github {
     justify-content: center;
-}
-
-.github-logo {
-    height: 17px;
-    margin-right: 5px;
 }
 
 @media (max-width: 768px) {
