@@ -1,9 +1,18 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-display: swap;
+}
+
 body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     color: white;
     background-color: #1a1a2e;
-    font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -130,7 +139,7 @@ footer {
     .logo {
         display: none;
     }
-    
+
     .portaimg {
         height: 100px;
     }
