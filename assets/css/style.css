@@ -122,6 +122,16 @@ footer {
     text-align: center;
 }
 
+footer p {
+    margin: 10px;
+}
+
+.subfooter, .subfooter-media {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
 .a_footer {
     color: white;
     text-decoration: none;
@@ -142,5 +152,19 @@ footer {
 
     .portaimg {
         height: 100px;
+    }
+
+    .subfooter {
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .subfooter-media {
+        flex-direction: row;
+    }
+
+    .subfooter p {
+        font-size: 14px;
+        margin: 7px;
     }
 }
